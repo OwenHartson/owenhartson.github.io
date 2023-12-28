@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Owen Hartson | Project | Create Account Form</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script>
+      window.addEventListener("load", function(){   
+         // Retrieve the field/value pairs from the URL
+         var formData = location.search.slice(1);
+         formData = formData.replace(/\+/g," ");
+         formData = decodeURIComponent(formData);
+         let formFields = formData.split(/[&=]/g);
+
+         // Write the field values to the account table
+         document.getElementById("username").textContent = formFields[1]; 
+         document.getElementById("pwd").textContent = formFields[3];          
+      } );   
+   </script>
+</head>
+
+<body>
+   <section>
+      <h1>Account Information</h1>
+      <table id="account">
+         <tr>
+            <td>Username</td>
+            <td><span id="username"></span></td>
+         </tr>
+         <tr>
+            <td>Password</td>
+            <td><span id="pwd"></span></td>
+         </tr>             
+      </table>
+   </section>
+</body>
+</html>
