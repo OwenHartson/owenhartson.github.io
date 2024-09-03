@@ -1,4 +1,4 @@
-import data from "./projectData.json" assert {type: 'json'}
+import data from "./projectData.json" with {type: 'json'}
 
 const gridContainer = document.querySelector(".grid-container");
 
