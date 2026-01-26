@@ -3,42 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer type="module"></script>
-    <title>Owen Hartson | Home Page</title>
+    <title>Owen Hartson | Portfolio - Home</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/base.css">
+
 </head>
 <body>
-
+    <div class="glow"></div>
+    <nav class="navbar">
+        <button onclick="document.querySelector('header').scrollIntoView({behavior:'smooth'})">
+            Home
+        </button>
+        <button onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">
+            Projects
+        </button>
+        <button onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">
+            Contact
+        </button>
+    </nav>
     <header>
-        <nav>
-            <div class="item-left-container">Owen Hartson</div>
-            <div class="item-right-container">
-                <a href="./PAGES/ABOUT/About.html" class="item">about me</a>
-                <a href="./PAGES/PROJECTS/Projects.html" class="item">Projects</a>
-                <a href="./PAGES/RESUME/OwenHartsonResume.pdf" class="item">Resume</a>
-            </div>
-            <div class="hambuger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-        <div class="text-container">
-            <div class="gretting">Hi, my name is Owen</div>
-            <div class="title">I'm a web developer</div>
-            <div class="description">The beauty and building of the web is my passion.</div>
-        </div>
+        <h1>Owen Hartson</h1>
+        <p> 
+            Creative developer focused on clean code, smooth interactions,
+            and visually striking experiences.
+        </p>
+        <button class="btn" onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">
+            View My Work
+        </button>
     </header>
-
     <main>
-        <div class="title">Projects</div>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="grid">
+                <a href="" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
 
-        <div class="grid-container"></div>
+                        <h3>Project One</h3>
+                        <p>
+                            A project description will go here.
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
+                        <h3>Project Two</h3>
+                        <p>
+                            A project description will go here.
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
+                        <h3>Project Three</h3>
+                        <p>
+                            A project description will go here.
+                        </p>
+                    </div>
+                </a>
+                <a href="/pages/projects.html" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
 
-        <a class="more-projects" href="./PAGES/PROJECTS/Projects.html">more projects <span>&#8594;</span></a>
+                        <h3 class="more-projects">More</h3>
+                        <p>
+                            Discover more of my projects!
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section>
+            <h2>About Me</h2>
+            <div class="card fade">
+                <div class="edge left"></div>
+                <div class="edge right"></div>
+                <p>
+                    I'm a developer who enjoys building polished interfaces and
+                    experimenting with visuals, games, and interactive systems.
+                    I care about details, performance, and user experience.
+                </p>
+                <p class="learn-more-about-me"><a href="/pages/error.html">Learn more about me</a></p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="card fade">
+                <div class="edge left"></div>
+                <div class="edge right"></div>
+                <p>
+                    GitHub: <a href="http://github.com/OwenHartson" target="_blank">github.com/OwenHartson</a><br />
+                    LinkedIn: <a href="https://www.linkedin.com/in/owen-hartson-887858343" target="_blank">linkedin.com/OwenHartson</a>
+                </p>
+            </div>
+        </section>
     </main>
-
     <footer>
+        <div>© 2026 Owen Hartson — Built with vanilla HTML, CSS & JavaScript</div>
+        <div class="old-portfolio">My <a href="pages/old/index.html" target="_blank">Old Portfolio</a></div>
     </footer>
 </body>
+<script src="index.js" defer></script>
 </html>
