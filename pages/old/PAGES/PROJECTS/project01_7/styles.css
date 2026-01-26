@@ -1,0 +1,146 @@
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background-color: #000;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+   color: #fff;
+   overflow: hidden;
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* main content */
+article {
+   width: 960px;
+   height: 560px;
+   text-align: left;
+   background: #000;
+   position: relative;
+}
+
+
+
+/*-------------------- Project Styles ------------------*/
+
+div#feedback {
+   clear: left;
+   color: red;
+   margin-left: 25px;
+   margin-bottom: 20px;
+}
+
+section h1 {
+   font-size: 1.4em;
+   margin: 20px 0;
+   color: #AD1F9A;
+}
+
+fieldset {
+   border: 1px solid rgb(192,192,192);
+   background-color: #000;
+   box-shadow: 3px 3px 20px gray;
+   padding: 30px;
+   display: block;
+   width: 600px;
+   margin: 0 auto;
+}
+
+fieldset legend {
+   width: 300px;
+   text-align: left;
+   background: rgba(255, 255, 255, 0.3);
+   font-size: 1.05em;
+}
+
+label {
+   display: block;
+   width: 100px;
+   float: left;
+   clear: left;
+   margin-bottom: 15px;
+   text-align: right;
+   margin-right: 20px;
+   font-size: 1em;
+   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+input {
+   display: block;
+   float: left;
+   font-size: 1.05em;
+   color: rgb(80, 80, 80);
+   margin-bottom: 15px;
+}
+
+input:invalid {
+   border-color: red;
+   box-shadow: 2px 2px 5px red;
+}
+
+input[type='submit'] {
+   clear: left;
+   display: block;
+   margin: 0 auto;
+   float: none;
+   font-size: 1.1em;
+   background-color: #AD1F9A;
+   color: white;
+   padding: 3px;
+   width: 100px;
+}
+
+section > h1 {
+   margin-left: 30px;
+}
+
+table {
+   margin-left: 30px;
+   border-collapse: collapse;
+}
+
+table td {
+   border: 1px solid rgb(150,150,150);
+   padding: 5px;
+}
+
+table tr td:first-of-type {
+   background-color: #000;
+}

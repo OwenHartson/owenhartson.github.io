@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Hartson | Portfolio - Projects</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../index.css">
+
+</head>
+<body>
+    <div class="glow"></div>
+    <nav class="navbar">
+        <button onclick="window.location.href='../index.html'">
+            Home
+        </button>
+        <button onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">
+            Projects
+        </button>
+        <button onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">
+            Contact
+        </button>
+    </nav>
+    <header>
+        <h1>My Projects</h1>
+        <p> 
+            Below is a selection of my recent work, showcasing my skills in development and design.
+        </p>
+        <button class="btn" onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">
+            View My Work
+        </button>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="grid">
+                <a href="" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
+
+                        <h3>Project One</h3>
+                        <p>
+                            A project description will go here.
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
+                        <h3>Project Two</h3>
+                        <p>
+                            A project description will go here.
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="card fade">
+                    <div>
+                        <div class="edge left"></div>
+                        <div class="edge right"></div>
+                        <h3>Project Three</h3>
+                        <p>
+                            A project description will go here.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="card fade">
+                <div class="edge left"></div>
+                <div class="edge right"></div>
+                <p>
+                    GitHub: <a href="http://github.com/OwenHartson" target="_blank">github.com/OwenHartson</a><br />
+                    LinkedIn: <a href="https://www.linkedin.com/in/owen-hartson-887858343" target="_blank">linkedin.com/OwenHartson</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>© 2026 Owen Hartson — Built with vanilla HTML, CSS & JavaScript</div>
+        <div class="old-portfolio">My <a href="pages/old/index.html" target="_blank">Old Portfolio</a></div>
+    </footer>
+</body>
+<script src="../index.js" defer></script>
+</html>

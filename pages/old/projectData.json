@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Bouncing Ball",
+        "image_path": "../IMGS/bouncing_ball.JPG",
+        "description": "This project demonstrates basic physics and allows the user to continuously place balls that bounce around the box.",
+        "destination": "/PAGES/PROJECTS/project02_8/project.html"
+    },
+    {
+        "title": "Personal Gretting Form",
+        "image_path": "../IMGS/Personal_Greeting.JPG",
+        "description": "This project demonstrates use of a url passing information from one page to the next.",
+        "destination": "/PAGES/PROJECTS/project01_9/project.html"
+    },
+    {
+        "title": "Fahrenheit to Celsius Converter",
+        "image_path": "../IMGS/Fahrenheit_to_Celsius_Converter.JPG",
+        "description": "This project allows the user to convert tempreture measured in Fahrenheit to Celsius.",
+        "destination": "/PAGES/PROJECTS/project01_2/project.html"
+    },
+    {
+        "title": "Moving Estimate",
+        "image_path": "../IMGS/Moving_Estimate.JPG",
+        "description": "This project demonstrates an example of a moving cost form.",
+        "destination": "/PAGES/PROJECTS/project01_4/project.html"
+    },
+    {
+        "title": "Algebra I Practice Quiz",
+        "image_path": "../IMGS/Algebra_I_Practice_Quiz.JPG",
+        "description": "This project demonstrates an example of an Algebra 1 quiz.",
+        "destination": "/PAGES/PROJECTS/project01_5/project.html"
+    },
+    {
+        "title": "Create Account Form",
+        "image_path": "../IMGS/Create_Account_Form.JPG",
+        "description": "This project demonstrates a basic example of a sign-up form where the user creates a username and password. The form validates the information and displays it on another page.",
+        "destination": "/PAGES/PROJECTS/project01_7/project.html"
+    },
+    {
+        "title": "Tangrams",
+        "image_path": "../IMGS/Tangrams.JPG",
+        "description": "This project demonstrates a simple game of tangrams where the user attemps to match the given shapes to the provided outlines.",
+        "destination": "/PAGES/PROJECTS/project02_10/project.html"
+    },
+    {
+        "title": "Book Review Comment",
+        "image_path": "../IMGS/Book_Review_Comment.JPG",
+        "description": "This project demonstrates a basic example of a review form that has a character count.",
+        "destination": "/PAGES/PROJECTS/project03_4/project.html"
+    },
+    {
+        "title": "Checkout Form",
+        "image_path": "../IMGS/Checkout_Form.JPG",
+        "description": "This project demonstrates a basic example of a checkout form.",
+        "destination": "/PAGES/PROJECTS/project03_6/project.html"
+    },
+    {
+        "title": "Lunch Selections Form",
+        "image_path": "../IMGS/Lunch_Selections_Form.JPG",
+        "description": "This project demonstrates a basic example of a lunch selection form.",
+        "destination": "/PAGES/PROJECTS/project04_2/project.html"
+    },
+    {
+        "title": "Customer Reviews",
+        "image_path": "../IMGS/Customer_Reviews.JPG",
+        "description": "This project demonstrates a basic example of a customer review list.",
+        "destination": "/PAGES/PROJECTS/project04_3/project.html"
+    },
+    {
+        "title": "Change Calculator",
+        "image_path": "../IMGS/Change_Calculator.JPG",
+        "description": "This project demonstrates an example of breaking down dollar amounts into change.",
+        "destination": "/PAGES/PROJECTS/project04_4/project.html"
+    },
+    {
+        "title": "Footnotes",
+        "image_path": "../IMGS/Footnotes.JPG",
+        "description": "This project demonstrates an example of using the new window function to create footnotes.",
+        "destination": "/PAGES/PROJECTS/project04_5/project.html"
+    },
+    {
+        "title": "Calculator",
+        "image_path": "../IMGS/Calculator.JPG",
+        "description": "This project demonstrates an example of a basic calculator.",
+        "destination": "/PAGES/PROJECTS/project05_2/project.html"
+    },
+    {
+        "title": "Angular Degrees to Circular Radians Converter",
+        "image_path": "../IMGS/Angular_Degrees_to_Circular_Radians_Converter.JPG",
+        "description": "This project demonstrates an example of a angular degrees to circular radians converter.",
+        "destination": "/PAGES/PROJECTS/project05_4/project.html"
+    },
+    {
+        "title": "Matching Game",
+        "image_path": "../IMGS/Matching_Game.JPG",
+        "description": "This project demonstrates an example of a simple matching card game.",
+        "destination": "/PAGES/PROJECTS/project05_5/project.html"
+    }
+]

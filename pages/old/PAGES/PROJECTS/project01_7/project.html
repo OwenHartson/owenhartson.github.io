@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Owen Hartson | Project | Create Account Form</title>
+   <script src="project.js" defer></script>
+   <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   <section>
+      <h1>Create your Account</h1>
+      <form id="signup" name="signup" method="get">
+         <fieldset>
+            <legend>Enter your Account Information</legend>
+            <label for="user">Username</label>
+            <input type="text" id="user" name="user" required />
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" required /> 
+            
+            <div id="feedback"></div>
+            
+            <input type="submit" id="submitButton" value="Save" />
+         </fieldset>
+      </form>
+   </section>
+</body>
+</html>
