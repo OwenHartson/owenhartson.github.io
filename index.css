@@ -255,3 +255,9 @@ footer {
     background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255,79,216,0.15), transparent 40%);
     transition: background 0.1s;
 }
+
+@media only screen and (max-width: 900px) {
+    .navbar button{
+        opacity: 0.75;
+    }
+}
